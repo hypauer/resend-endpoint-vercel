@@ -5,7 +5,7 @@
 // notification to the site owner.
 
 const TO_EMAIL = 'mario@hypauer.com';
-const FROM_EMAIL = 'Access Requests <onboarding@resend.dev>'; // swap for your verified domain later
+const FROM_EMAIL = 'Access Requests <mario@hypauer.com>'; // swap for your verified domain later
 
 export default async function handler(req, res) {
   // CORS (harmless to include; useful if you ever test from a browser)
