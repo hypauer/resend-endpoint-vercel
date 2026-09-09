@@ -1,0 +1,7 @@
+{
+  "name": "resend-framer-endpoint",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Serverless endpoint that receives Framer form webhooks and sends a notification email via Resend.",
+  "license": "MIT"
+}
