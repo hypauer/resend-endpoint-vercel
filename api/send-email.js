@@ -50,10 +50,10 @@ export default async function handler(req, res) {
       body: JSON.stringify({
         from: FROM_EMAIL,
         to: [TO_EMAIL],
-        subject: 'New Access Request',
+        subject: 'You just received a new message.',
         html: `
           <div style="font-family: sans-serif; font-size: 15px; line-height: 1.5;">
-            <h2>New "Request Access" submission</h2>
+            <h2>New "You just received a new message." submission</h2>
             <p><b>Email submitted:</b> ${submittedEmail}</p>
             <hr />
             <p style="color:#888; font-size: 12px;">Sent automatically from your Framer form.</p>
